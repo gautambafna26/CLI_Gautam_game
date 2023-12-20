@@ -12,7 +12,7 @@ let highscore = [
         score: 3
     },
     {
-        name: "Sumat",
+        name: "Aj",
         score: 3,
     }
 ]
@@ -22,7 +22,7 @@ function play(question,answer){
 
     if(userAnswer.toUpperCase() == answer.toUpperCase()){
         console.log("Right!!!");
-        score=score+1;
+        score=score+1; 
         
     }
     else{
